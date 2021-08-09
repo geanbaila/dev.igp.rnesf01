@@ -1,0 +1,153 @@
+/*
+    general styles for PDFs
+*/
+
+
+.some-text{
+    color: #555555;
+    font-weight: bolder;
+
+}
+
+body{
+    font-size: 14px;
+}
+.align-long-pdf-text{
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.border-left-sign-box{
+    border-left: 1px solid #e1e1e1;
+}
+.border-top-sign-box{
+    border-left: 1px solid #e1e1e1;
+}
+
+.hr-sign-box{
+    border-top: 1px solid #e1e1e1;
+}
+
+.border-sign{
+    border-top:1px solid #555555;
+    padding-top: 5px;
+}
+
+.checkbox-box{
+    border: 1px solid #4b4b4b;
+    display: inline-block;
+    height: 15px;
+    margin-bottom: -2px;
+    margin-right: 3px;
+    width: 15px;
+}
+
+.checkbox-box.checked{
+    background-color: #7A7A7A;
+}
+
+.definition-text{
+    /*font-weight: bold;*/
+    color: #323232;
+}
+.description-text{
+    color: #454545;
+}
+
+.dont-break{
+    page-break-after: always;
+    page-break-inside: avoid;
+}
+
+.filled-text{
+    border-bottom: dashed #000000 1px;
+}
+.footnote{
+    margin-top: 15px;
+}
+
+.footnote p, .footnote li{
+    color: #555555;
+    margin: 0;
+}
+
+.long-pdf-text{
+    /*font-size: 15px;*/
+}
+
+.mt-element-list .list-default.ext-1.mt-list-container ul > .mt-list-item{
+    border-left-color: transparent !important;
+}
+
+.sign-container-internal{
+    padding-bottom: 35px;
+}
+
+.signing-box{
+    height:50px;
+    border: 1px solid #151515;
+}
+
+.urgent-requirement{
+    position: absolute !important;
+    right: 0;
+    top: -5px !important;
+}
+
+.well-pdf{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 7px;
+
+}
+
+
+/* STAMP */
+.red-stamp {
+    color: #BD4932;
+}
+
+.stamp {
+    position: relative;
+    display: inline-block;
+    width:20%;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+
+    -webkit-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+}
+
+.stamp:after {
+    content: '';
+    float: left;
+    padding-bottom: 100%;
+}
+
+.stamp:before {
+    content: '';
+    position: absolute;
+    top: 10%; bottom: 10%; left: 10%; right: 10%;
+    border-radius: 100%;
+}
+
+.stamped {
+    position: absolute;
+    top: 30%; left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    padding: .25em;
+    background: white;
+    margin: 0;
+    border: .25em solid;
+    border-radius: 2em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}

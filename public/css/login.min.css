@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    background: #f5f5f5;
+}
+
+.app-icon-container {
+    height: 100%;
+}
+
+.app-icon-container > img {
+    max-width: 125px;
+}
+
+/* CSS only for examples not required for centering */
+.container {
+    height: 100%;
+}
+
+.content-global {
+    /* border: 1px solid #19243b; */
+    border-top: 2px solid #6F6F6F;
+    border-bottom: 5px solid #6F6F6F;
+    padding: 5px;
+    background-color: #FFF;
+    border-radius: 5px;
+    /* webkit-box-shadow: 0px 1px 3px 2px rgba(58, 58, 58, 0.30); */
+    -moz-box-shadow: 0px 1px 3px 2px rgba(58, 58, 58, 0.30);
+    box-shadow: 0px 1px 3px 2px rgba(58, 58, 58, 0.30);
+}
+
+/* show border around full height container */
+.content-login {
+    /* height: 500px; */
+    background: #FCC;
+}
+
+.iheader-hv {
+    height: 50px;
+}
+
+.igp.btn-primary {
+    /*background-color: #0200AE;
+    border-color: #0200AE;*/
+}
+
+.igp.btn-primary:hover {
+    -webkit-filter: brightness(1.15);
+    filter: brightness(1.15);
+}
+
+.hv-font-eleven {
+    font-size: 11px;
+}
+
+.hv-font-twelve {
+    font-size: 12px;
+}
+
+.hv-strong {
+    font-weight: bold;
+}
+
+.hv-w-content {
+    width: 100%;
+}
+
+.hv-text-align-consult {
+    text-align: left;
+}
+
+.hv-text-align-validate {
+    text-align: right;
+}
+
+.hv-link-top {
+    background: white;
+    border-top: 1px solid #6F6F6F;
+    border-left: 1px solid #6F6F6F;
+    border-right: 1px solid #6F6F6F;
+    border-bottom: 1px solid transparent;
+    padding: 3px;
+    font-size: 12px;
+    color: #6F6F6F;
+}
+
+.helper-container{
+    margin-bottom: 2px;
+}
+
+.helper-container > a{
+    text-decoration: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+.helper-container > a:hover{
+    -webkit-filter: brightness(.95);
+    filter: brightness(.95);
+}
+
+@media screen and (min-width: 768px) {
+    .igp.logo-container {
+        text-align: right;
+    }
+
+    .app-icon-container > img {
+        max-width: 175px;
+    }
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 992px) {
+    .hv-w-content {
+        width: 75%;
+    }
+
+    .app-icon-container > img {
+        max-width: 185px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hv-w-content {
+        width: 70%;
+    }
+}
+
+/* On screens that are 768px or less, set the background color to olive */
+@media screen and (max-width: 768px) {
+    .hv-text-align-consult {
+        text-align: center;
+    }
+
+    .hv-text-align-validate {
+        text-align: center;
+    }
+
+    .igp.logo-container {
+        text-align: center;
+    }
+}
